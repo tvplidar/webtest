@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phoutsanit</title>
 </head>
+
 <body>
-    <input type="number" placeholder="Input number">
-    <button>SUBMIT</button>
+    <h1>UPDATED</h1>
+    <input type="number" id="number" placeholder="Input number">
+    <button onclick="showNumber()">SUBMIT</button>
+
+    <script>
+        var number = document.getElementById("number").value;
+
+        function showNumber() {
+            alert(number);
+        }
+    </script>
 </body>
+
 </html>
